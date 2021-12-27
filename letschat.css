@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    align-items: center;
+    background-color: black;
+}
+
+#header {
+    font-size: 32px;
+}
+
+#header,
+h3 {
+    color: white;
+}
+
+#loginButton,
+#userName {
+    width: clamp(100px, 50%, 500px);
+}
+
+#userName {
+    display: inline;
+}
+
+#logoPic {
+    width: 150px;
+}

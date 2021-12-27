@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <title>Let's Chat</title>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="letschatroom.css">
+</head>
+
+<body>
+    <h1 class="header" style="color: white;">
+        Lets Chat
+        <sup>
+            <img src="LetsChat_Logo.png" id="logoImg">
+        </sup>
+    </h1>
+    <br>
+    <hr>
+    <br>
+    <h4 id="welcomeTag"></h4>
+    <br>
+    <div id="addRoomDiv">
+        <label>
+            Add a Room
+        </label>
+        <br>
+        <br>
+        <input type="text" id="roomName" class="form-control" placeholder="Add a Room...">
+        <br>
+        <button id="addRoomButton" onclick="addRoom()" class="btn btn-success">
+            <div style="background-color: tomato;"></div>
+            Add Room
+        </button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <label class="roomDivHeader">
+        Current Rooms
+    </label>
+    <div id="output"></div>
+    <br>
+    <hr>
+    <br>
+    <button id="logOutButton" class="btn btn-danger" onclick="logOut()">
+        Logout
+    </button>
+    <script src="letschatroom.js"></script>
+</body>
+
+</html>

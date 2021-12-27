@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    background-color: black;
+}
+
+#logoImg {
+    width: 150px;
+}
+
+#welcomeTag {
+    color: white;
+    font-size: 30px;
+}
+
+#addRoomDiv {
+    border-radius: 15px;
+    color: white;
+    width: 500px;
+    display: inline-block;
+}
+
+label.roomDivHeader {
+    color: white;
+}
+
+#addRoomButton {
+    width:100px; 
+}
+
+#output {
+    min-height: 20px;
+	width: 40%;
+	background: cornsilk;
+	border-radius: 15px;
+    margin: 0 auto;
+}
